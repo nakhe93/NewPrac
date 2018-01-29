@@ -182,8 +182,7 @@ class App extends Component {
             <input type="text" onChange={this.onAgeChange} id="age" />
             <label htmlFor="phone">Phone</label>
             <input type="text" onChange={this.onPhoneChange} id="phone" />
-            <label htmlFor="ssn">Social Security Number</label>
-            <input type="text" onChange={this.onSocialChange} id="ssn" />
+           
             {this.formValidation()}
           </fieldset>
         </form>
